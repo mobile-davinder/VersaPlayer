@@ -2,7 +2,7 @@
 //  VersaPlayer.swift
 //  VersaPlayer Demo
 //
-//  Created by Jose Quintero on 10/11/18.
+//  Updated by Davinder Singh on 07/05/20
 //  Copyright © 2018 Quasar. All rights reserved.
 //
 
@@ -163,6 +163,10 @@ extension VersaPlayer {
     
     /// Value observer
     override open func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        guard let handler = handler else {
+            return
+        }
+        
         if let obj = object as? VersaPlayer, obj == self {
             if keyPath == "status" && handler != nil {
                 switch status {

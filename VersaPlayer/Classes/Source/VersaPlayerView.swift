@@ -2,7 +2,7 @@
 //  VersaPlayerView.swift
 //  VersaPlayerView Demo
 //
-//  Created by Jose Quintero on 10/11/18.
+//  Updated by Davinder Singh on 07/05/20.
 //  Copyright © 2018 Quasar. All rights reserved.
 //
 

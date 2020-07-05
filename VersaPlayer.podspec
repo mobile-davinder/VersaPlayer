@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
     
     s.description      = 'Versatile AVPlayer implementation for iOS.'
     
-    s.homepage         = 'https://github.com/josejuanqm/VersaPlayer'
+    s.homepage         = 'https://github.com/mobile-davinder/VersaPlayer'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'Jose Quintero' => 'jose.juan.qm@gmail.com' }
-    s.source           = { :git => 'https://github.com/josejuanqm/VersaPlayer.git', :tag => s.version.to_s }
-    s.social_media_url = 'https://twitter.com/josejuanqm'
+    s.author           = { 'Davinder Singh' => 'mobile.davinder.11@gmail.com' }
+    s.source           = { :git => 'https://github.com/mobile-davinder/VersaPlayer.git', :tag => s.version.to_s }
+    s.social_media_url = 'https://twitter.com/mobile-davinder'
     
     s.ios.deployment_target = '9.0'
     s.tvos.deployment_target = '9.0'

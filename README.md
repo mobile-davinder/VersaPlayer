@@ -1,16 +1,15 @@
-[![CI Status](https://img.shields.io/travis/jose.juan.qm@gmail.com/VersaPlayer.svg?style=flat)](https://travis-ci.org/jose.juan.qm@gmail.com/VersaPlayer)
 [![Version](https://img.shields.io/cocoapods/v/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/VersaPlayer)
 [![License](https://img.shields.io/cocoapods/l/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/VersaPlayer)
 [![Platform](https://img.shields.io/cocoapods/p/VersaPlayer.svg?style=flat)](https://cocoapods.org/pods/VersaPlayer)
 
 ### News
-##### :tada: - Since 2.1.3 VersaPlayer now supports iOS, macOS, and tvOS
+##### :tada: - VersaPlayer Crash on Observer due to handler is nil (Fix)
 
 ---
 
 <div>
   <p align="center">
-    <img src="https://github.com/josejuanqm/VersaPlayer/blob/master/Image.png" />
+    <img src="https://github.com/mobile-davinder/VersaPlayer/blob/master/Image.png" />
   </p>
 </div>
 
@@ -96,7 +95,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 <div>
   <p align="center">
-    <img src="https://github.com/josejuanqm/VersaPlayer/blob/master/RepoAssets/iphone.png" />
+    <img src="https://github.com/mobile-davinder/VersaPlayer/blob/master/RepoAssets/iphone.png" />
   </p>
 </div>
 
@@ -121,7 +120,7 @@ pod 'VersaPlayer'
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "josejuanqm/VersaPlayer" "3.0.0"
+github "mobile-davinder/VersaPlayer" "3.0.0"
 ```
 
 ## Usage
@@ -184,7 +183,7 @@ VersaPlayer also brings support for encrypted content, to make use of this funci
 
 To read more about this topic go to:
 
-https://josejuanqm.github.io/Libraries-Documentation/VersaPlayerCore/Protocols/VersaPlayerDecryptionDelegate.html
+https://mobile-davinder.github.io/Libraries-Documentation/VersaPlayerCore/Protocols/VersaPlayerDecryptionDelegate.html
 
 #### Tracks
 
@@ -192,7 +191,7 @@ To make use of different media tracks, such as audio, video, or captioning, use 
 
 to learn more about this properties go to:
 
-https://josejuanqm.github.io/Libraries-Documentation/VersaPlayerCore/Classes/VersaPlayerMediaTrack.html
+https://mobile-davinder.github.io/Libraries-Documentation/VersaPlayerCore/Classes/VersaPlayerMediaTrack.html
 
 ##### Audio Tracks
 
@@ -258,48 +257,24 @@ Caption styling are not usually managed by the user, but when necessary, caption
 
 Explore all the available attributes that can be changed here:
 
-https://josejuanqm.github.io/Libraries-Documentation/VersaPlayerCore/Classes/VersaPlayerCaptionStyling.html
+https://mobile-davinder.github.io/Libraries-Documentation/VersaPlayerCore/Classes/VersaPlayerCaptionStyling.html
 
 ## Extensions
 
 Versa is aimed to be versatile, and that's why it comes with an extensions feature, that lets you customize any aspect of the player by inheriting from VersaPlayerExtension.
 
 This class comes with a player attribute that points to the player instance from which is being used.
-To add an extension use the add(extension ext:) method found in https://josejuanqm.github.io/Libraries-Documentation/VersaPlayerCore/Classes/VersaPlayer.html.
+To add an extension use the add(extension ext:) method found in https://mobile-davinder.github.io/Libraries-Documentation/VersaPlayerCore/Classes/VersaPlayer.html.
 
 Here are some extensions for VersaPlayer that may be useful for you.
 
-1. [AirPlay Extension](https://github.com/josejuanqm/VersaPlayerAirplayExtension)
+1. [AirPlay Extension](https://github.com/mobile-davinder/VersaPlayerAirplayExtension)
 
-2. [Ads Extension](https://github.com/josejuanqm/VersaPlayerAdsExtension)
+2. [Ads Extension](https://github.com/mobile-davinder/VersaPlayerAdsExtension)
 
-3. [Overlay Content Extension](https://github.com/josejuanqm/VersaPlayerOverlayContentExtension)
+3. [Overlay Content Extension](https://github.com/mobile-davinder/VersaPlayerOverlayContentExtension)
 
 
 ## Documentation
 
-Full documentation avilable https://josejuanqm.github.io/Libraries-Documentation/VersaPlayerCore/
-
-## Author
-
-Jose Quintero - jose.juan.qm@gmail.com
-
-## Contributors
-
-People that make VersaPlayer possible, Thank you!
-
-<span><a href="https://github.com/josejuanqm"><img src="https://github.com/josejuanqm.png" alt="josejuanqm" width="50px"></a></span>
-<span><a href="https://github.com/pbeast"><img src="https://github.com/pbeast.png" alt="pbeast" width="50px"></a></span>
-<span><a href="https://github.com/danibachar"><img src="https://github.com/danibachar.png" alt="danibachar" width="50px"></a></span>
-<span><a href="https://github.com/HuseyinVural"><img src="https://github.com/HuseyinVural.png" alt="HuseyinVural" width="50px"></a></span>
-
-## Donation
-
-If you like this project or has been helpful to you, you can buy me a cup of coffe :)
-Appreciate it!
-
-[![paypal](https://github.com/josejuanqm/VersaPlayer/blob/master/RepoAssets/Artboard.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KGX5UDWNHBRNY)
-
-## License
-
-VersaPlayer is available under the MIT license. See the LICENSE file for more info.
+Full documentation avilable https://mobile-davinder.github.io/Libraries-Documentation/VersaPlayerCore/
